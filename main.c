@@ -1,0 +1,64 @@
+#include <stdio.h>
+
+int main()
+{
+	
+    //Calculator program
+    
+    
+    char operators;
+    double num1, num2, result;
+    char choice;
+    
+    printf("===SIMPLE CALCULATOR===");
+    
+    do{
+        // Get first jumber
+        printf("\nEnter the first number: ");
+        scanf("%lf", &num1);
+        
+        // Get operator
+        printf("Enter the operator (+ - * /): ");
+        scanf(" %c", &operators);
+        
+        // Get second number
+        printf("Enter the second number: ");
+        scanf("%lf", &num2);
+   
+        
+        // Perform Calculation
+        switch (operators) {
+            case '+':
+                result = num1 + num2;
+                printf("Result: %.4lf\n", result);
+                break;
+            case '-':
+                result = num1 - num2;
+                printf("Result: %.4lf\n", result);
+                break;
+            case '*':
+                result = num1 * num2;
+                printf("Result: %.4lf\n", result);
+                break;
+            case '/':
+                if (num2 == 0) {
+                    printf("Error: You can't divide by zero!\n");
+                } else {
+                    result = num1 / num2;
+                    printf("Result: %.4lf\n", result);
+                }
+                break;
+            default:
+                printf("Invalid operator!\n");
+        }
+    
+        // Ask if user wants to continue
+        printf("Do you want to perform another calculation? (y/n): ");
+        scanf(" %c", &choice);
+    
+    } while (choice == 'y' || choice == 'Y');
+
+    printf("Thank you for using the calculator!\n");
+    return 0;
+}
+	
