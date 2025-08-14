@@ -6,3 +6,6 @@ This repository serves as my training ground, a place to practice the fundamenta
 The structure of this dojo is simple. The basics directory contains fundamental drills. Loops and conditionals hold repetitive practice to strengthen rhythm and control. Functions are where I perfect my techniques. Pointers and arrays sharpen precision, and small projects simulate real combat scenarios. Every section is a part of my journey, a scroll in the story of my growth as a C programmer.
 
 Training here is straightforward. Clone the dojo, choose a challenge, and compile it using GCC. The rules are simple: discipline over speed, refinement over completion, and learning over winning. I share this not as a finished work, but as a record of my ongoing path to mastery—open to anyone who wishes to walk a similar road.
+
+
+Special Thanks to Bro Code - https://youtu.be/xND0t1pr3KY?si=SPppOcvOLBZ390tP
