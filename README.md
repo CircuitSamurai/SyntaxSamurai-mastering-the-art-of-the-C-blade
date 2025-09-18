@@ -1,5 +1,5 @@
 # SyntaxSamurai-mastering-the-art-of-the-C-blade
-Welcome to my personal dojo of C programming. This is where I train, sharpen my skills, and challenge myself through a series of beginner-friendly projects and exercises. Each program is a swing of the sword, every bug a worthy opponent, and every solution a step toward mastery. The path is long, but every line of code written is a mark of discipline and progress.
+Welcome to my personal dojo of C & C++ programming. This is where I train, sharpen my skills, and challenge myself through a series of beginner-friendly projects and exercises. Each program is a swing of the sword, every bug a worthy opponent, and every solution a step toward mastery. The path is long, but every line of code written is a mark of discipline and progress.
 
 This repository serves as my training ground, a place to practice the fundamentals of C—variables, loops, conditionals, functions, pointers, arrays, and file I/O. Here, I refine my techniques, starting with small drills and building up to complete projects that test my logic, patience, and problem-solving. Like a samurai returning to the dojo each day, I revisit old code, improve it, and learn from my past battles.
 
