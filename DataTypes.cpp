@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    // numbers - int, float, double
+        // int - whole numbers EX: -1, 0, 1, 500
+        // float - decimal numbers (single precision) Ex: 5.99f up to 7 decimal digits
+        // double - decimal numbers (double precision) Ex: 19.99 up to 15 decimal digits
+            // const double PI = 3.14159; (constant variable, cannot be changed)
+            // auto keyword - automatically determines the data type
+                // auto myNum = 5.99; // double
+                // auto myNum2 = 10; // int
+
+
+    // logical values (boolean) - bool EX: true or false
+
+    // characters - char Ex: 'a', 'b', 'c' (single quotes for single characters)
+    // strings - string Ex: "Hello" (double quotes for multiple characters)
+    // camel case - myVariableName (C++ standard)
+    // snake case - my_variable_name
+
+    // How to check variable type:
+    int age = 23;
+    float price = 24.99f;
+    double PI = 3.141592653589793;
+    bool hungry = true;
+    char dollar = '$';
+
+    // Arithmetic operators: +, -, *, /, %, pow (Ex: pow(2, 3) = 2^3 = 8)
+        // Type casting - converting a variable from one type to another
+            int a = 5;
+            int b = 2;
+            float z = a/(float) b; // z = 2.5
+    // Increment/decrement operators: ++, --
+        // Prefix: ++x; (increments x, then returns x)
+        // Postfix: x++; (returns x, then increments x)
+        // --x; (decrements x by 1)
+    
+
+        
+        
+
+    cout << typeid(age).name() << endl;   // int - i
+    cout << typeid(price).name() << endl; // float - fss
+    cout << typeid(PI).name() << endl;    // double - d
+    cout << typeid(hungry).name() << endl; // bool - b
+    cout << typeid(dollar).name() << endl; // char - c
+
+    // Multiple variables on one line
+    int x = 5;
+    int y = 6;
+    int p = 50;
+
+    cout << "x: " << x << " y: " << y << " z: " << p << endl;
+}
