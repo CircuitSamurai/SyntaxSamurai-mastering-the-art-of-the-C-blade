@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl; // endl - ends the line.
+    return 0;
+}
