@@ -1,0 +1,30 @@
+#include <iostream> //also includes <string>
+#include<string>
+using namespace std;
+
+//Strings
+int main() {
+    
+    string myName = "CircuitSamurai";
+    string myName2 = "Circuit Warrior";
+    string myName3 = {'c', 'i', 'r', 'c', 'u', 'i', 't'};
+    char myname4[] = "circuit";
+
+    cout << myName << endl;
+    cout << myName2 << endl;
+    cout << myName3 << endl;
+    cout << myname4 << endl;
+
+    //myName[1] = '$'; //change character at index 1
+    //myName += " The Great"; //append string
+    //myName.append(5, '*'); //append 5 asterisks
+    //myname.push_back('!'); //append character += '!'
+    //myname.insert(0, "AAAA"); //insert string at index 0
+    //myname.pop_back(); //remove last character
+    //myname.erase(0, 4); //remove 4 characters starting at index 0
+    //myName.replace(0, 7, "CIRCUIT"); //replace 7 characters starting at index 0 with string
+    
+    cout <<myName.back() << endl; //last character
+    cout <<myName.front() << endl; //first character
+
+}
